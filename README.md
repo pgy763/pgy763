@@ -2,18 +2,18 @@
 
 ### 蒲公英
 
-在做「把 AI 能力接到真实后端服务里」这件事。Java / Spring Boot 出身，最近两个月一半时间写 Java，一半时间写 Python 调模型。
+在做「把 AI 能力接到真实后端服务里」这件事。Java / Spring Boot 出身，现在把重心放在 **Java 生态的 AI 工程化**上。
 
 ---
 
 **在做的事**
 
-- **[llm-gateway](https://github.com/pgy763/llm-gateway)** — 多个系统共用 AI 时的统一接入层。虚拟密钥、降级链、熔断、令牌桶限流，以及用状态机管理的多步任务编排。
-- **[llm-dev-pitfalls](https://github.com/pgy763/llm-dev-pitfalls)** — LLM 应用开发踩坑手册。按报错关键词索引，不按章节顺序。
+- **[hello-ai-backend](https://github.com/pgy763/hello-ai-backend)** — 写给 Java 后端工程师的 AI 接入手册。不讲模型原理，只补「能调通 API」到「能上生产」中间那一段：流式、降级、限流、计量、任务编排。[在线阅读 →](https://pgy763.github.io/hello-ai-backend/)
+- **[llm-dev-pitfalls](https://github.com/pgy763/llm-dev-pitfalls)** — LLM 应用开发踩坑手册，主攻 Java 生态（Spring AI / LangChain4j / Spring Boot 3）。按报错关键词索引，不按阅读顺序。
 
 **主要技术栈**
 
-`Java` `Spring Boot` `MySQL` `Redis` `Vue 3` · `Python` `LangChain` `LangGraph`
+`Java` `Spring Boot` `Spring AI` `LangChain4j` `MySQL` `Redis` `Vue 3` · `Python` `LangChain`
 
 **写东西的地方**
 
