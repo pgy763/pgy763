@@ -2,27 +2,41 @@
 
 ### 蒲公英
 
-在做「把 AI 能力接到真实后端服务里」这件事。Java / Spring Boot 出身，现在把重心放在 **Java 生态的 AI 工程化**上。
+Java 后端，最近在把大模型接进 Spring 服务里。
+
+这儿的仓库基本是**学习笔记和练习项目**，不是生产代码 —— 但尽量做到每一步能跑、能复现、点开就能看。
 
 ---
 
-**在做的事**
+**能直接点开看的**
 
-- **[hello-ai-backend](https://github.com/pgy763/hello-ai-backend)** — 写给 Java 后端工程师的 AI 接入手册。不讲模型原理，只补「能调通 API」到「能上生产」中间那一段：流式、降级、限流、计量、任务编排。[在线阅读 →](https://pgy763.github.io/hello-ai-backend/)
-- **[llm-dev-pitfalls](https://github.com/pgy763/llm-dev-pitfalls)** — LLM 应用开发踩坑手册，主攻 Java 生态（Spring AI / LangChain4j / Spring Boot 3）。按报错关键词索引，不按阅读顺序。
+| 项目 | 是什么 | 可以验证什么 |
+| --- | --- | --- |
+| [algo-stage](https://github.com/pgy763/algo-stage) | 把算法一行一行演给你看：18 个算法 + 5 种语言的代码实验台 | [在线试](https://pgy763.github.io/algo-stage/) · 76 个测试 · CI 全绿 |
+| [hello-ai-backend](https://github.com/pgy763/hello-ai-backend) | 写给 Java 后端的 AI 接入手册：补「能调通 API」到「能上生产」中间那一段 | [在线阅读](https://pgy763.github.io/hello-ai-backend/) |
+| [llm-dev-pitfalls](https://github.com/pgy763/llm-dev-pitfalls) | LLM 开发踩坑手册（Spring AI / LangChain4j），按报错关键词索引，不按阅读顺序 | 1.1 万字，持续更新 |
 
-**主要技术栈**
+**在写的代码**
 
-`Java` `Spring Boot` `Spring AI` `LangChain4j` `MySQL` `Redis` `Vue 3` · `Python` `LangChain`
+| 项目 | 一句话 |
+| --- | --- |
+| [llm-gateway](https://github.com/pgy763/llm-gateway) | 多个系统共用 AI 时，把调用统一管起来的接入网关（Spring Boot 3 + Java 21） |
+| [shopkeeper-agent](https://github.com/pgy763/shopkeeper-agent) | 中文提问直接出数：FastAPI + LangGraph + RAG 的 NL2SQL 智能体 |
+| [prompt-ops](https://github.com/pgy763/prompt-ops) | 把 Prompt 当代码管理：版本、diff、回归测试 |
+| [Blog-](https://github.com/pgy763/Blog-) | Spring Boot 3 + Spring AI 的全栈博客：前台、后台、AI 助手 |
 
-**写东西的地方**
+**技术栈 · 分别用在哪**
 
-- 博客：[49.232.183.90](http://49.232.183.90)
+- `Java` `Spring Boot` `Spring AI` `LangChain4j` → llm-gateway、hello-ai-backend
+- `Python` `FastAPI` `LangGraph` `RAG` → shopkeeper-agent
+- `Vue 3` → algo-stage（渲染层零依赖，手写 SVG / DOM）
+- `MySQL` `Redis` → 上面几个项目的存储层
 
-**信条**
+**最近**
 
-> 能被搜到的知识才算真的存在。所以我尽量把踩过的坑写下来，而不是只留在自己的终端里。
+- 2026-10：给 algo-stage 补了堆排序、并查集、LIS、编辑距离、Trie 五个算法，并加上 CI 门禁和 CHANGELOG
+- 一直在更：hello-ai-backend 的正文、llm-dev-pitfalls 的报错条目
 
----
+**联系**
 
-<sub>如果你在某个报错上卡了很久，也许 [这个仓库](https://github.com/pgy763/llm-dev-pitfalls) 里有。没有的话，欢迎开 Issue 告诉我。</sub>
+开 Issue 就行，报错、勘误、想问的都收。
