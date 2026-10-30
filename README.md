@@ -6,6 +6,12 @@ Java 后端，最近在把大模型接进 Spring 服务里。
 
 这儿的仓库基本是**学习笔记和练习项目**，不是生产代码 —— 但尽量做到每一步能跑、能复现、点开就能看。
 
+<a href="https://pgy763.github.io/algo-stage/">
+  <img src="https://raw.githubusercontent.com/pgy763/algo-stage/main/docs/screenshots/home.png" alt="AlgoStage：把算法一行一行演给你看" width="100%">
+</a>
+
+<p align="right"><sub>↑ algo-stage：<a href="https://pgy763.github.io/algo-stage/">点开就能拖进度条看</a></sub></p>
+
 ---
 
 **能直接点开看的**
