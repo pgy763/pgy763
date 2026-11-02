@@ -15,7 +15,7 @@ Java 后端，最近在把大模型接进 Spring 服务里。
 | **Hello, AI Backend** | 怎么把 AI 接进 Spring Boot：15 章，每章配一个能跑的模块 | [在线阅读](https://pgy763.github.io/hello-ai-backend/) |
 | **LLM 开发踩坑手册** | 接的过程中会踩什么坑：51 条，按报错关键词搜 | [搜报错](https://pgy763.github.io/llm-dev-pitfalls/all) |
 | **Shopkeeper Agent** | 完整做一个能用的东西：NL2SQL，12 个 LangGraph 节点 | [看代码](https://github.com/pgy763/shopkeeper-agent) |
-| **llm-lint** | 把手册里最贵的十条做成命令行，在 commit 之前拦住 | [看工具](https://github.com/pgy763/llm-lint) |
+| **llm-lint** | 把最贵的十五条坑做成命令行，在 commit 之前拦住；也能出 SARIF 接进 code scanning | [看工具](https://github.com/pgy763/llm-lint) |
 
 <a href="https://pgy763.github.io/algo-stage/">
   <img src="https://raw.githubusercontent.com/pgy763/algo-stage/main/docs/screenshots/home.png" alt="AlgoStage：把算法一行一行演给你看" width="100%">
@@ -42,7 +42,7 @@ Java 后端，最近在把大模型接进 Spring 服务里。
 
 **最近**
 
-- 2026-11：踩坑手册扩到 51 条并上线可搜索站点；把其中十条最贵的坑做成 [llm-lint](https://github.com/pgy763/llm-lint)，一条命令在提交前拦住；shopkeeper-agent 补了架构、接口、元数据、排查、已知限制五篇文档
+- 2026-11：踩坑手册扩到 51 条并上线可搜索站点；把其中最贵的坑做成 [llm-lint](https://github.com/pgy763/llm-lint)（十五条规则，含 SARIF 输出与行内抑制），一条命令在提交前拦住；shopkeeper-agent 补了架构、接口、元数据、排查、已知限制五篇文档
 - 2026-10：给 algo-stage 补了堆排序、并查集、LIS、编辑距离、Trie 五个算法，加上 CI 门禁和 CHANGELOG
 
 **联系**
