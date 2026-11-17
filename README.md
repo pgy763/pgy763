@@ -6,15 +6,6 @@ Java 后端，最近在把大模型接进 Spring 服务里。
 
 **入口只有一个：[pgy763.github.io](https://pgy763.github.io/)** —— 书、手册、项目、工具，都在那儿，不用在这儿翻仓库。
 
-这本书、这份手册、这个项目，外加一个检查器，说的是同一件事的几面：
-
-| | 讲什么 | 点开 |
-| --- | --- | --- |
-| **Hello, AI Backend** | 怎么把 AI 接进 Spring Boot：15 章，每章配一个能跑的模块 | [在线阅读](https://pgy763.github.io/hello-ai-backend/) |
-| **LLM 开发踩坑手册** | 接的过程中会踩什么坑：51 条，按报错关键词搜 | [搜报错](https://pgy763.github.io/llm-dev-pitfalls/all) |
-| **Shopkeeper Agent** | 完整做一个能用的东西：NL2SQL，12 个 LangGraph 节点 | [看代码](https://github.com/pgy763/shopkeeper-agent) |
-| **llm-lint** | 把最贵的十五条坑做成命令行，在 commit 之前拦住；也能出 SARIF 接进 code scanning | [看工具](https://github.com/pgy763/llm-lint) |
-
 ---
 
 ### 三个不依赖任何服务的小工具
@@ -26,6 +17,17 @@ Java 后端，最近在把大模型接进 Spring 服务里。
 | **DiskMap** | 硬盘红了却说不出原因的 Windows 用户 | 扫一遍出一张能下钻的树图，面积就是体积。我自己的 C 盘：214GB / 764,363 个文件 / 209 秒，重复文件 12.8GB、一年没动 16.5GB | [在线报告](https://pgy763.github.io/diskmap/) · [41 秒视频](https://github.com/pgy763/diskmap/blob/main/docs/demo-v1.mp4) |
 | **BillBook** | 想看年度账单又不想把账单传上云的人 | 支付宝 / 微信导出文件 → 一份离线 HTML 年报。顺手修掉「不计收支」被算成消费的坑：我这份虚高 34%，多算 6 万 2 | [在线报告](https://pgy763.github.io/billbook/) · [40 秒视频](https://github.com/pgy763/billbook/blob/main/docs/demo-v1.mp4) |
 | **silent-audit** | 用 AI 写脚本、然后对着 `exit 0` 说"完成了"的人 | 脚本说处理了 1000 行，它去数一遍：0 行。脚本改写 `data.csv`，它发现你写成了 `data(1).csv`。把「说干了」和「真干了」分成两件事 | [看它怎么抓](https://github.com/pgy763/silent-audit#readme) |
+
+---
+
+这本书、这份手册、这个项目，外加一个检查器，说的是同一件事的几面：
+
+| | 讲什么 | 点开 |
+| --- | --- | --- |
+| **Hello, AI Backend** | 怎么把 AI 接进 Spring Boot：15 章，每章配一个能跑的模块 | [在线阅读](https://pgy763.github.io/hello-ai-backend/) |
+| **LLM 开发踩坑手册** | 接的过程中会踩什么坑：51 条，按报错关键词搜 | [搜报错](https://pgy763.github.io/llm-dev-pitfalls/all) |
+| **Shopkeeper Agent** | 完整做一个能用的东西：NL2SQL，12 个 LangGraph 节点 | [看代码](https://github.com/pgy763/shopkeeper-agent) |
+| **llm-lint** | 把最贵的十五条坑做成命令行，在 commit 之前拦住；也能出 SARIF 接进 code scanning | [看工具](https://github.com/pgy763/llm-lint) |
 
 <a href="https://pgy763.github.io/algo-stage/">
   <img src="https://raw.githubusercontent.com/pgy763/algo-stage/main/docs/screenshots/home.png" alt="AlgoStage：把算法一行一行演给你看" width="100%">
