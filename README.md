@@ -19,13 +19,13 @@ Java 后端，最近在把大模型接进 Spring 服务里。
 
 ### 三个不依赖任何服务的小工具
 
-每个都是**一条命令、单文件输出、不联网**，拿下来就能用：
+一条命令、单文件输出、不联网。每个都在解决一件"你以为已经解决了"的事：
 
-| | 一句话 | 先看效果 |
-| --- | --- | --- |
-| **DiskMap** | 磁盘被谁吃了？扫一遍出一张能下钻的树图。整盘 214GB / 764,363 个文件，209 秒 | [在线报告](https://pgy763.github.io/diskmap/) · [41 秒视频](https://github.com/pgy763/diskmap/blob/main/docs/demo-v1.mp4) |
-| **BillBook** | 支付宝 / 微信账单变年度报告。顺手解决「不计收支」被算成消费这个坑（虚高 34%） | [在线报告](https://pgy763.github.io/billbook/) · [40 秒视频](https://github.com/pgy763/billbook/blob/main/docs/demo-v1.mp4) |
-| **silent-audit** | 给 AI 写的脚本验尸：退出码 0、打印「完成」，但文件一个字节没变 | [看它怎么抓](https://github.com/pgy763/silent-audit#readme) |
+| | 给谁 | 解决什么 | 先看效果 |
+| --- | --- | --- | --- |
+| **DiskMap** | 硬盘红了却说不出原因的 Windows 用户 | 扫一遍出一张能下钻的树图，面积就是体积。我自己的 C 盘：214GB / 764,363 个文件 / 209 秒，重复文件 12.8GB、一年没动 16.5GB | [在线报告](https://pgy763.github.io/diskmap/) · [41 秒视频](https://github.com/pgy763/diskmap/blob/main/docs/demo-v1.mp4) |
+| **BillBook** | 想看年度账单又不想把账单传上云的人 | 支付宝 / 微信导出文件 → 一份离线 HTML 年报。顺手修掉「不计收支」被算成消费的坑：我这份虚高 34%，多算 6 万 2 | [在线报告](https://pgy763.github.io/billbook/) · [40 秒视频](https://github.com/pgy763/billbook/blob/main/docs/demo-v1.mp4) |
+| **silent-audit** | 用 AI 写脚本、然后对着 `exit 0` 说"完成了"的人 | 脚本说处理了 1000 行，它去数一遍：0 行。脚本改写 `data.csv`，它发现你写成了 `data(1).csv`。把「说干了」和「真干了」分成两件事 | [看它怎么抓](https://github.com/pgy763/silent-audit#readme) |
 
 <a href="https://pgy763.github.io/algo-stage/">
   <img src="https://raw.githubusercontent.com/pgy763/algo-stage/main/docs/screenshots/home.png" alt="AlgoStage：把算法一行一行演给你看" width="100%">
