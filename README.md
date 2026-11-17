@@ -16,7 +16,7 @@ Java 后端，最近在把大模型接进 Spring 服务里。
 | --- | --- | --- | --- |
 | **DiskMap** | 硬盘红了却说不出原因的 Windows 用户 | 扫一遍出一张能下钻的树图，面积就是体积。我自己的 C 盘：214GB / 764,363 个文件 / 209 秒，重复文件 12.8GB、一年没动 16.5GB | [在线报告](https://pgy763.github.io/diskmap/) · [41 秒视频](https://github.com/pgy763/diskmap/blob/main/docs/demo-v1.mp4) |
 | **BillBook** | 想看年度账单又不想把账单传上云的人 | 支付宝 / 微信导出文件 → 一份离线 HTML 年报。顺手修掉「不计收支」被算成消费的坑：我这份虚高 34%，多算 6 万 2 | [在线报告](https://pgy763.github.io/billbook/) · [40 秒视频](https://github.com/pgy763/billbook/blob/main/docs/demo-v1.mp4) |
-| **silent-audit** | 用 AI 写脚本、然后对着 `exit 0` 说"完成了"的人 | 脚本说处理了 1000 行，它去数一遍：0 行。脚本改写 `data.csv`，它发现你写成了 `data(1).csv`。把「说干了」和「真干了」分成两件事 | [看它怎么抓](https://github.com/pgy763/silent-audit#readme) |
+| **silent-audit** | 用 AI 写脚本、然后对着 `exit 0` 说"完成了"的人 | 脚本说处理了 1000 行，它去数一遍：0 行。脚本改写 `data.csv`，它发现你写成了 `data(1).csv`。把「说干了」和「真干了」分成两件事 | [在线演示](https://pgy763.github.io/silent-audit/) · [看它怎么抓](https://github.com/pgy763/silent-audit#readme) |
 
 ---
 
